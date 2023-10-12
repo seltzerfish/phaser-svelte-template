@@ -5,9 +5,12 @@
 
 <!-- NOTE: add `pointer-event-auto` to anything you need to be clickable here. -->
 
-<div class="flex justify-between">
+<div class="flex justify-between p-4">
 	<p class="p">some sort of hud stuff goes here</p>
-	<h2 class="h2">💖💖💖</h2>
+	<a
+		href="https://github.com/seltzerfish/phaser-svelte-template"
+		class="btn variant-filled-primary pointer-events-auto">Get the template 🔗</a
+	>
 </div>
 
 <div class="w-full flex justify-center">
@@ -22,3 +25,5 @@
 		</div>
 	</div>
 </div>
+
+<div class="fixed bottom-6 right-6" />
