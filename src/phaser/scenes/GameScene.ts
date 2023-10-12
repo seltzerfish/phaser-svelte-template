@@ -30,7 +30,7 @@ export default class GameScene extends Phaser.Scene {
 
 	private spawnFish() {
 		const fish = this.matter.add
-			.image(100, 100, 'logo')
+			.image(100, 100, 'logo') // just using my favicon here
 			.setRectangle(48, 24)
 			.setBounce(0.5)
 			.setVelocity(10, 0)

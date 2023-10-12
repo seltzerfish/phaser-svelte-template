@@ -25,7 +25,6 @@ export const config: Phaser.Types.Core.GameConfig = {
 	transparent: true,
 	scale: {
 		mode: Phaser.Scale.NONE
-		// autoCenter: Phaser.Scale.CENTER_BOTH
 	},
 
 	scene: [LoadingSplash, PreloaderScene, GameScene]
