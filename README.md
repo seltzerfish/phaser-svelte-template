@@ -1,5 +1,7 @@
 # phaser-svelte-template 🚀
 
+## [Live Demo](https://template.seltzerfish.com)
+
 This is a project starter template for a web game that uses [Phaser 3](https://phaser.io/) for the game world and [Skeleton UI](https://skeleton.dev/) (SvelteKit + Tailwind) for the menus.
 
 To get started, press "Use this template" on the top of [the github page](https://github.com/seltzerfish/phaser-svelte-template).
