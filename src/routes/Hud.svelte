@@ -17,7 +17,7 @@
 	<div class="flex flex-col">
 		<h2 class="h2 py-2">fish count: {$fishCount}</h2>
 		<div class="flex flex-col pointer-events-auto">
-			<input type="range" min="0" max="40" bind:value={$fishCount} class="slider py-4" />
+			<input type="range" min="0" max="40" bind:value={$fishCount} class=" py-4" />
 			<div class="flex justify-center">
 				<button on:click={() => ($fishCount -= 1)} class="btn-icon variant-filled mx-2">-</button>
 				<button on:click={() => ($fishCount += 1)} class="btn-icon variant-filled mx-2">+</button>
