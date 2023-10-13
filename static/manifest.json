@@ -1,0 +1,15 @@
+{
+	"id": "your-app-id",
+	"name": "My App",
+	"short_name": "My App",
+	"start_url": "/",
+	"display": "standalone",
+	"lang": "en",
+	"icons": [
+		{
+			"src": "icon-512.png",
+			"sizes": "512x512",
+			"type": "image/png"
+		}
+	]
+}
