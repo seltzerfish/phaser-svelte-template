@@ -39,6 +39,7 @@
   "type": "module",
   "dependencies": {
     "@floating-ui/dom": "1.5.3",
+    "@vercel/analytics": "^1.1.1",
     "phaser": "^3.60.0"
   }
 }
