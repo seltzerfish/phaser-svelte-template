@@ -21,6 +21,7 @@ pnpm dev
 - The game world you see is in `src/phaser/scenes/GameScene.ts`
 - The config for the Phaser game is in `src/phaser/main.ts`
 - The HUD you see is in `src/svelte/routes/Hud.svelte`
+- The PWA config is in `static/manifest.json`.
 - `src/lib/stores.ts` contains the variables that communicate between the Phaser game and the Svelte UI
 
 ## Learn more
