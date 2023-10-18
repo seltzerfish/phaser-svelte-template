@@ -7,6 +7,6 @@
 	storePopup.set({ computePosition, autoUpdate, flip, shift, offset, arrow });
 </script>
 
-<div class="h-screen">
+<div class="h-[calc(100dvh)]">
 	<slot />
 </div>
