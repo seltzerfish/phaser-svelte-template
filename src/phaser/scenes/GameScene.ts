@@ -45,9 +45,14 @@ export default class GameScene extends Phaser.Scene {
 		}
 	}
 
+	update(time: number, delta: number): void {
+		this.updatePhysics(delta);
+	}
+
+	// ⚠️ Do not edit ⚠️
 	private physicsClock = 0;
 	private readonly fps = 144;
-	update(time: number, delta: number): void {
+	updatePhysics(delta: number) {
 		this.physicsClock += delta;
 		const frameLengthMs = 1000 / this.fps;
 		while (this.physicsClock > frameLengthMs) {
