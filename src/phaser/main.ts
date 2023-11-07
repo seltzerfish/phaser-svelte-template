@@ -16,7 +16,7 @@ export const config: Phaser.Types.Core.GameConfig = {
 			setBounds: true,
 			gravity: {
 				x: 0,
-				y: 0.2
+				y: 1
 			}
 		}
 	},
