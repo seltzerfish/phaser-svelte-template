@@ -1,6 +1,6 @@
 <script lang="ts">
 	import Phaser from 'phaser';
-	import { config } from '../phaser/main';
+	import { config } from '../phaser/config';
 
 	import { onMount } from 'svelte';
 	import Hud from './Hud.svelte';
